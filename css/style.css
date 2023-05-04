@@ -22620,3 +22620,82 @@ video::-webkit-media-controls {
     width: 100%;
     height: auto;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .marquee3 {
+        margin-left: -51%;
+    }
+    .mpd{
+        padding-top: 4.2%;
+        padding-bottom: 11.5% !important;
+    }
+    .about-style2-area .shape {
+        position: relative;
+        right: -15%;
+        top: 2rem;
+    }
+    .mrl{
+        margin-left: 19% !important;
+    }
+    .single-footer-widget .footer-company-info-text h3 {
+        margin-left: -6% !important;
+    }
+    p {
+    font-size: 1rem;
+    }
+
+    .pb{
+        padding-bottom: 13.5% !important;    
+        background-size: auto;
+    }
+    .logg{
+        margin-top: -18% !important;
+        margin-left: 11% !important;
+        width: 110px !important;
+    }
+}
+
+
+@media only screen and (min-width: 1920px) {
+    .blsc{
+        margin-top: 8% !important;
+        margin-left: 11% !important;
+        width: 16rem !important;
+    }
+
+    .main-menu.style2 .navigation > li > a {
+        font-weight: 900;
+        margin-top: 5%;
+    }
+    .psec{
+        font-size: 1.6rem !important; 
+    }
+    .mitm{
+        left: 14% !important;
+    }
+    .sec-title-style2 {
+        justify-content: flex-end;
+        margin-right: 21%;
+    }
+    .thm-btn33 {
+        width: 20rem;
+        margin-left: 36%;
+    }
+    .about-style2-area .sec-title-style2 {
+        text-align: center;
+    }
+    .marquee33{
+        margin-top: -4%;
+    }
+    .marquee34{
+        padding-top: 4.2%;
+    }
+    .mtpo{
+    margin-top: 5%;
+    }
+    .sec-title-style1{
+        width: 100% !important;
+    }
+    
+}

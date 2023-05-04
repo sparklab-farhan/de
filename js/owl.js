@@ -185,7 +185,7 @@
 	 */
 	Owl.Defaults = {
 		items: 3,
-		loop: false,
+		loop: true,
 		center: false,
 		rewind: false,
 
@@ -3273,3 +3273,49 @@
 	}
 
 })(window.Zepto || window.jQuery, window, document);
+
+
+// $('.owl-carousel').owlCarousel({
+// 	loop: true,
+// 	margin: 10,
+// 	responsiveClass: true,
+// 	responsive: {
+// 	  0: {
+// 		items: 1,
+// 	  },
+// 	  576: {
+// 		items: 2,
+// 	  },
+// 	  768: {
+// 		items: 3,
+// 	  },
+// 	  992: {
+// 		items: 4,
+// 	  }
+// 	}
+//   });
+
+
+//   $('.owl-carousel').owlCarousel({
+// 	items: 4,
+// 	loop: true,
+// 	margin: 10,
+// 	responsiveClass: true,
+// 	autoplay: true,
+// 	autoplayTimeout: 1000, // Adjust the timeout as needed
+// 	autoplayHoverPause: true,
+// 	responsive: {
+// 	  0: {
+// 		items: 1,
+// 	  },
+// 	  576: {
+// 		items: 2,
+// 	  },
+// 	  768: {
+// 		items: 3,
+// 	  },
+// 	  992: {
+// 		items: 4,
+// 	  }
+// 	}
+//   });
